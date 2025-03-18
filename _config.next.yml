@@ -101,10 +101,12 @@ menu:
     default: /docs/ || fa fa-book
     第一章：SSP-9652: 
       default: /SSP-9652/ || fa fa-book
-      对人的态度: /对人的态度/ || fa fa-book
-      喜好: /喜好/ || fa fa-book
-      状态: /状态/ || fa fa-book
-      生理: /生理/ || fa fa-book
+      对人的态度: /对人的态度/ || fa fa-comment
+      喜好: /喜好/ || fa fa-heart
+      状态: /状态/ || fa fa-user
+      生理: /生理/ || fa fa-dna
+  其他研究:
+    default: /study/ || fa fa-flask
 
 
 
