@@ -308,9 +308,9 @@ related_posts:
 # Post edit
 # Easily browse and edit blog source code online.
 post_edit:
-  enable: false
+  enable: true
   # url: https://github.com/O25-Council/O25-Council.github.io/tree/main/docs # Link for view source
-  url: https://github.com/O25-Council/O25-Council.github.io/tree/main/ # Link for fork & edit
+  url: https://github.com/O25-Council/Blog/tree/main/source/ # Link for fork & edit
 
 # Show previous post and next post in post footer if exists
 # Available values: left | right | false
@@ -406,7 +406,7 @@ reading_progress:
   # Available values: left | right
   start_at: left
   # Available values: top | bottom
-  position: bottom
+  position: top
   reversed: false
   color: "#37c6c0"
   height: 3px
@@ -597,7 +597,7 @@ pjax: false
 
 # FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images.
 # For more information: https://fancyapps.com/fancybox/
-fancybox: false
+fancybox: true
 
 # Medium Zoom is a JavaScript library for zooming images like Medium.
 # Warning: Do not enable both `fancybox` and `mediumzoom`.
@@ -655,7 +655,7 @@ motion:
 # Progress bar in the top during page loading.
 # For more information: https://github.com/CodeByZach/pace
 pace:
-  enable: true
+  enable: false
   # All available colors:
   # black | blue | green | orange | pink | purple | red | silver | white | yellow
   color: blue
