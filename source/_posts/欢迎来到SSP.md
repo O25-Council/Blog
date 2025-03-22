@@ -26,6 +26,8 @@ tags:
 
 <p align="right">—— The Administrator</p>
 
+![](../images/ssp.png)
+
 于是，基金会出现了。
 
 SSP 基金会（英文名：SSP Foundation）全称特殊收容措施基金会（英文名：Special Suppression Procedures Foundation）。
