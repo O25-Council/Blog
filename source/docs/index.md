@@ -21,7 +21,7 @@ tags:
 
 <p align="right">—— The Administrator</p>
 
-![](../images/ssp.png)
+![](../images/logo_ssp.svg)
 
 ---
 

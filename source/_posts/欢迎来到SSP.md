@@ -26,7 +26,7 @@ tags:
 
 <p align="right">—— The Administrator</p>
 
-![](../images/ssp.png)
+![](../images/logo_ssp.svg)
 
 于是，基金会出现了。
 

@@ -27,9 +27,9 @@ custom_file_path:
   #postBodyEnd: source/_data/post-body-end.njk
   #footer: source/_data/footer.njk
   #bodyEnd: source/_data/body-end.njk
-  #variable: source/_data/variables.styl
+  variable: source/_data/variables.styl
   #mixin: source/_data/mixins.styl
-  #style: source/_data/styles.styl
+  style: source/_data/styles.styl
 
 
 # ---------------------------------------------------------------
@@ -55,7 +55,7 @@ favicon:
   medium: /images/favicon-32x32.png
   apple_touch_icon: /images/apple-touch-icon-next.png
   safari_pinned_tab: /images/logo.svg
-  #android_manifest: /manifest.json
+  # android_manifest: /manifest.json
 
 # Custom Logo (Warning: Do not support scheme Mist)
 custom_logo: #/uploads/logo.jpg
@@ -108,6 +108,7 @@ menu:
   其他研究:
     default: /study/ || fa fa-flask
     随机效应: /随机效应/ || fa fa-random
+    SSP航天: /SSP航天/ || fa fa-rocket
 
 
 
@@ -158,7 +159,7 @@ sidebar:
 # Sidebar Avatar
 avatar:
   # Replace the default image and set the url here.
-  url: /uploads/avatar.png
+  url: /uploads/logo.svg
   # If true, the avatar will be displayed in circle.
   rounded: true
   # If true, the avatar will be rotated with the cursor.
@@ -644,16 +645,16 @@ quicklink:
 motion:
   enable: true
   async: false
-  duration: 150
+  duration: 100
   transition:
     # All available transition variants: https://theme-next.js.org/animate/
-    menu_item: fadeInDown
-    post_block: fadeIn
-    post_header: fadeInDown
+    menu_item: bounceInDown
+    post_block: fadeInDown
+    post_header: bounceInDown
     post_body: fadeInDown
-    coll_header: fadeInLeft
+    coll_header: bounceInLeft
     # Only for Pisces | Gemini.
-    sidebar: fadeInUp
+    sidebar: bounceInUp
 
 # Progress bar in the top during page loading.
 # For more information: https://github.com/CodeByZach/pace

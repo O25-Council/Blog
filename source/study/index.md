@@ -17,3 +17,5 @@ tags:
 {% endnote %}
 
 > 为了更好地控制、收容、保护，SSP进行了大量的研究。
+
+![](../images/logo_ssp.svg)
