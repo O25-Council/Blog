@@ -12,3 +12,20 @@ body {
 .popup {        
   opacity: 0.9;
 }
+
+:root {
+  --content-bg-color: #ffffffe0;
+  color-scheme: light;
+}
+
+if (hexo-config('darkmode')) {
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --content-bg-color: #333333e0;
+      color-scheme: dark;
+    }
+    iframe {
+      color-scheme: light;
+    }
+  }
+}
