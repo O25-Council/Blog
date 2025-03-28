@@ -105,6 +105,7 @@ menu:
       喜好: /喜好/ || fa fa-heart
       状态: /状态/ || fa fa-user
       生理: /生理/ || fa fa-dna
+      行为: /行为/ || fa fa-bolt
   其他研究:
     default: /study/ || fa fa-flask
     随机效应: /随机效应/ || fa fa-random
